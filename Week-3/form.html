@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <h2>Sign In Form</h2>
+    <form action="/signin" method="post">
+        <div>
+            <label for="email"> Email: </label>
+            <input type="email" placeholder="Enter your email">
+        </div>
+        <br>
+        <div>
+            <label for="password"> Password: </label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember"> Remember me</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Sing In">
+        </div>
+    </form>
+    <hr>
+    <h2>Sign Up Form</h2>
+    <form action="/signup" method="post"></form>
+    <div>
+        <label for="name">Full name</label>
+        <input type="text" placeholder="Enter your full name">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Enter your email">
+    </div>
+    <br>
+    <div>
+        <label for="password"> Password: </label>
+        <input type="password" id="password" placeholder="Enter your password">
+    </div>
+    <br>
+    <div>
+        <label for="comfirm">Comfirm password: </label>
+        <input type="password" id="comfirm password" placeholder="Comfirm your password">
+    </div>
+    <br>
+    <div>
+        <label for="phone number">Phone number: </label>
+        <input type="number" placeholder="Enter your phone number">
+    </div>
+    <br>
+    <div>
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female </label>
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label>
+    </div>
+    <hr>
+    <h2>Contact Form</h2>
+    <form action="/contectform" method="post"></form>
+    <div>
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Enter your name">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Enter your email address">
+    </div>
+    <br>
+    <div>
+        <label for="message">Message: </label>
+        <textarea rows="8" cols="50"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </div>
+</body>
+</html>
